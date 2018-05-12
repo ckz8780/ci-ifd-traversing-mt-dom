@@ -44,5 +44,29 @@ $('.card').click(function() {
     } else {
         $(this).css('background-color', 'pink')
     }
-})
+});
+
+// Traversing Sideways Challenge 4:
+// Add two new elements to the nav: select and all
+// Select hides all panels except those w/ pink backgrounds
+// All shows all panels
+
+$('#select').click(function() {
+    var allCards = $('.card');
+    for(i=0; i<allCards.length; i++) {
+        var card = $(allCards[i]);
+        var bgColor = card.css('background-color');
+        if (!(bgColor == 'rgb(255, 192, 203)')) {
+            card.fadeToggle();
+        }
+    }
+});
+
+$('#all').click(function() {
+    var allCards = $('.card');
+    for(i=0; i<allCards.length; i++) {
+        var card = $(allCards[i]);
+        card.fadeIn();
+    }
+});
 
