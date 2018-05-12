@@ -30,3 +30,8 @@ The code uses boilerplate html/css files provided by CodeInstitute.
     - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/cards.html
     - CSS: css/cardstyle.css
     - JS: js/cardscript.js
+
+- ##### Other traversing methods challenge 1:
+    - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/button.html
+    - CSS: css/buttonstyle.css
+    - JS: js/buttonscript.js
