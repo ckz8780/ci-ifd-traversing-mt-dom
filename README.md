@@ -35,3 +35,13 @@ The code uses boilerplate html/css files provided by CodeInstitute.
     - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/button.html
     - CSS: css/buttonstyle.css
     - JS: js/buttonscript.js
+
+- ##### Other traversing methods challenge 2:
+    - HTML: https://ckz8780.github.io/ci-ifd-jquery-tables/index.html
+    - CSS: N/A
+    - JS: In above repo
+
+- ##### Other traversing methods challenge 3:
+    - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/button.html
+    - CSS: css/buttonstyle.css
+    - JS: js/buttonscript.js

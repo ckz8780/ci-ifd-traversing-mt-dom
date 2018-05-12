@@ -43,5 +43,15 @@ $(document).ready(function(){
  $('.superButton').click(function() {
      $('.theButton').fadeIn('slow');
      $('.theButton').fadeTo('slow', 1.0);
+     $(this).text('Reset');
+ });
+ 
+ 
+ // Change reset button text to bgcolor of panel clicked
+ $('.theButton').click(function() {
+     $(this).removeClass('makeBlack');
+     var bgColor = $(this).css('background-color');
+     $(this).addClass('makeBlack');
+     $('.superButton').text("The panel you clicked has background color: " + bgColor + " (click to reset panels)");
  });
 });

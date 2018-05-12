@@ -62,4 +62,10 @@ p{
 .makeBlack {
     background-color: #000;
 }
+
+.color-notification {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
  
