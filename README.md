@@ -20,3 +20,8 @@ The code uses boilerplate html/css files provided by CodeInstitute.
     - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/cards.html
     - CSS: css/cardstyle.css
     - JS: js/cardscript.js
+
+- ##### Traversing sideways challenge 3:
+    - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/cards.html
+    - CSS: css/cardstyle.css
+    - JS: js/cardscript.js

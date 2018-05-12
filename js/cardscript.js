@@ -12,7 +12,7 @@ $(".stream-nav").on("click", function() {
     $(thisStreamCardsSelector).addClass("card-highlight");
 });
 
-// Challenge 1:
+// Traversing up and down Challenge 1:
 // Highlight all links in yellow when a paragraph is clicked
 
 $('.card_para').click(function() {
@@ -23,7 +23,6 @@ $('.card_para').click(function() {
 
 // Traversing Sideways Challenge 2:
 // Hide all paragraphs but slideToggle them when their image is clicked
-
 $('img').click(function() {
     // Not all images have a card_bottom div following them
     // so we must use some conditional logic:
@@ -34,3 +33,16 @@ $('img').click(function() {
         $(this).siblings('p').slideToggle();
     }
 });
+
+// Traversing Sideways Challenge 3:
+// When a .card is clicked, its background changes to pink
+// Do not toggle a class
+$('.card').click(function() {
+    console.log($(this).css('background-color'));
+    if($(this).css('background-color') == 'rgb(255, 192, 203)') {
+        $(this).css('background-color', '#fff');
+    } else {
+        $(this).css('background-color', 'pink')
+    }
+})
+
