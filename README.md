@@ -11,7 +11,12 @@ The code uses boilerplate html/css files provided by CodeInstitute.
     - CSS: css/cardstyle.css
     - JS: js/cardscript.js
 
-- ##### Traversing sideways challenge:
+- ##### Traversing sideways challenge 1:
     - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/traversing-sideways.html
     - CSS: css/cardstyle.css
     - JS: js/traversing-sideways.js
+
+- ##### Traversing sideways challenge 2:
+    - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/cards.html
+    - CSS: css/cardstyle.css
+    - JS: js/cardscript.js

@@ -48,7 +48,6 @@ div{
 
 .card_para{
 	flex: 1 0 auto;
-	display: none; /* Traversing Sideways Challenge 2 */
 }
 
 #container{

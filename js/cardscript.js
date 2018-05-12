@@ -20,3 +20,17 @@ $('.card_para').click(function() {
     var links = $(this).children('a');
     $(links).css('background-color', 'yellow');
 });
+
+// Traversing Sideways Challenge 2:
+// Hide all paragraphs but slideToggle them when their image is clicked
+
+$('img').click(function() {
+    // Not all images have a card_bottom div following them
+    // so we must use some conditional logic:
+    var nextElem = $(this).next()[0].className;
+    if (nextElem == 'card_bottom'){
+        $(this).next().children('p').slideToggle();
+    } else {
+        $(this).siblings('p').slideToggle();
+    }
+});
