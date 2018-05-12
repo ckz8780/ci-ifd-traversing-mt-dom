@@ -4,8 +4,14 @@ These are a few examples of traversing up and down the DOM tree using jQuery. Th
 
 The code uses boilerplate html/css files provided by CodeInstitute.
 
-See cardstyle.css and cardscript.js for challenge code. 
+### Challenges:
 
-The index is located at https://ckz8780.github.io/ci-ifd-the-importance-of-this/index.html
+- ##### Traversing up and down the DOM challenge:
+    - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/cards.html
+    - CSS: css/cardstyle.css
+    - JS: js/cardscript.js
 
-The challenge portion is located at https://ckz8780.github.io/ci-ifd-the-importance-of-this/cards.html
+- ##### Traversing sideways challenge:
+    - HTML: https://ckz8780.github.io/ci-ifd-traversing-mt-dom/traversing-sideways.html
+    - CSS: css/cardstyle.css
+    - JS: js/traversing-sideways.js
